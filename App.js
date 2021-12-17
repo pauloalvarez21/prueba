@@ -10,17 +10,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="HomeView"
-        screenOptions={{
-          headerTitleAlign: 'center',
-          headerStyle: {
-            backgroundColor: '#2941DB',
-          },
-          headerTintColor: '#FFFFFF',
-          headerTitleStyle: {
-            fontWeight: 'bold',
-          },
-        }}>
+        initialRouteName="HomeView">
         <Stack.Screen name="Home" component={HomeView} />
       </Stack.Navigator>
     </NavigationContainer>

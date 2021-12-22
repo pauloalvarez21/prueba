@@ -20,20 +20,7 @@
  
  import {
    Colors,
-   DebugInstructions,
-   Header,
-   LearnMoreLinks,
-   ReloadInstructions,
  } from 'react-native/Libraries/NewAppScreen';
- 
- const Section = ({children, title}): Node => {
-   const isDarkMode = useColorScheme() === 'dark';
-   return (
-     <View style={styles.sectionContainer}>
-       
-     </View>
-   );
- };
  
  const HomeView: () => Node = () => {
    const isDarkMode = useColorScheme() === 'dark';
